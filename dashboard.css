@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    background:darksalmon;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+    min-height: 100vh;
+}
+
+.dashboard-container {
+    width: 100%;
+    max-width: 900px; 
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-section,
+.table-section {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+input,
+textarea,
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+input,
+textarea {
+    border: 1px solid #ccc;
+}
+
+button {
+    background: green;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 8px 20px;     
+    width: auto;          
+    display: block;        
+    margin:0;     
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+.styled-table thead {
+    background: #007bff;
+    color: #fff;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.styled-table tbody tr:nth-child(even) {
+    background: #f3f6fa;
+}
+
+.styled-table tbody tr:hover {
+    background: #e6f0ff;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logout-btn {
+    background: #dc3545;
+    width: auto;          
+    padding: 8px 20px;    
+    display: block;       
+    margin: 0;    
+}
+
+.logout-btn:hover {
+    background: #a71d2a;
+}
+
+
+.product-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.product-list th,
+.product-list td {
+    border: 1px solid #ddd;
+    padding: 10px 12px;
+    text-align: left;
+}
+
+.product-list th {
+    background-color:cadetblue;
+    color: white;
+}
+
+.product-list tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.product-list tr:hover {
+    background-color: #eef5ff;
+}
