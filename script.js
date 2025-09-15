@@ -114,3 +114,4 @@ function logout() {
 document.addEventListener("DOMContentLoaded", () => {
     renderProducts();
 });
+
